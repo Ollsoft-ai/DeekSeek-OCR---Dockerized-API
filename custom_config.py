@@ -30,8 +30,8 @@ OUTPUT_PATH = ''
 
 # CUSTOMIZABLE PROMPT - Modify this line to change the default prompt
 # The API will still accept custom prompts via the prompt parameter
-PROMPT = '<image>\n<|grounding|>Convert the document to markdown.'
-# PROMPT = '<image>\nFree OCR.'
+# PROMPT = '<image>\n<|grounding|>Convert the document to markdown.'
+PROMPT = '<image>\nFree OCR.'
 # TODO commonly used prompts
 # document: <image>\n<|grounding|>Convert the document to markdown.
 # other image: <image>\n<|grounding|>OCR this image.
